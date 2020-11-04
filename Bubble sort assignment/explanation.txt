@@ -1,0 +1,16 @@
+Bubble sort
+
+
+Working - Bubble sort works by swapping the adjacent elements if they are in wrong order . 
+          Example: Given array - (9, 7, 2, 5) After first iteration - (7, 2, 5, 9) After second iteration - (2, 5, 7, 9) and so on... 
+          In this way, the array is sorted by placing the greater element at the end of the array 
+
+Use - Bubble sort works well with large datasets where you know that items are almost sorted. For example, you might have a school roll of 1000 children. 
+      Each child belongs to a grade — which means that age-wise, they are already semi-sorted.
+      Another example may be a large company with employees put into different departments and roles ranking. It’s expected that within these  groups, 
+      there is already a pre-determined range of salaries. So if you’re given the entire dataset to sort, they’ve already been pre-sorted based on department and 
+      roles.
+
+Time-Complexity = Performance. Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting 
+                  algorithms have substantially better worst-case or average complexity, often O(n log n). ... When the list is already sorted (best-case), 
+                  the complexity of bubble sort is only O(n).
