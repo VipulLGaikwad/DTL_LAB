@@ -1,0 +1,26 @@
+claPrinting Column or Field
+[jerry]$ awk '{print $3 "\t" $4}' marks.txt
+
+[jerry]$ awk '/barn/ {++cnt} END {print "Count = ", cnt}' marks.txt
+
+Printing Lines with More than 18 Characters
+[jerry]$ awk 'length($0) > 25' marks.txt
+
+
+
+AWK - Regular Expressions
+Dot:
+$ oeecho -e "cat\nbat\nfun\nfin\nfan" | awk '/f.n/'
+fun
+fin
+fan
+
+
+Start of line:
+$ echo -e "This\nThat\nThere\nTheir\nthese" | awk '/^The/'
+
+
+
+
+End of line:
+$ echo -e "knife\nknow\nfun\nfin\nfan\nnine" | awk '/n$/'
